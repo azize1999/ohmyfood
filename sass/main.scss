@@ -1,0 +1,19 @@
+//importation des fichiers scss du dossier utils
+@import "./utils/variables";
+@import "./utils/mixins";
+
+//importation des fichiers scss du dossier base
+
+@import "./base/typography";
+@import "./base/code-base";
+@import "./base/menu";
+
+//importation des fichiers scss du dossier components
+@import "./components/button";
+@import "./components/card";
+@import "./components/icones";
+
+//importation des fichiers scss du dossier layout
+
+@import "./layout/header";
+@import "./layout/footer";
