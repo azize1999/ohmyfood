@@ -30,7 +30,8 @@ body{
         } 
 
         @media (min-width: 1024px){
-            width: 75%;
+            width: 75%;  
+                    
         }
     }
 }
@@ -105,9 +106,9 @@ body{
 
              @media (max-width: 1024px){
                 width: 150px;
-                 text-overflow: ellipsis;
-                 white-space: nowrap;
-                 overflow: hidden;
+                 text-overflow: ellipsis; //point de suspension
+                 white-space: nowrap; //le text ne sera pas devisé 
+                 overflow: hidden; //pour masqué le contenu qui depasse la taille
                 }
             }
         
